@@ -27,15 +27,3 @@ Esta API REST permite gestionar el ciclo completo de las **órdenes de pago** en
 
 ---
 
-## 🏗️ Arquitectura del Sistema
-
-```mermaid
-graph LR
-    Client[Cliente Web/Móvil] --> API[API ASP.NET Core]
-    API --> Auth[Autenticación JWT]
-    API --> Validation[Validación de Reglas de Negocio]
-    Validation --> DB[(SQL Server)]
-    API --> Logs[Registro de Auditoría]    
-    
-    style API fill:#512BD4,color:white
-    style DB fill:#CC2927,color:white
