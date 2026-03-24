@@ -23,7 +23,6 @@ Esta API REST permite gestionar el ciclo completo de las **órdenes de pago** en
 ### Valor para el negocio
 - ✅ Trazabilidad completa de cada transacción
 - ✅ Validación de presupuestos y límites de gasto
-- ✅ Generación de reportes para auditoría
 - ✅ Integración con flujos de aprobación jerárquicos
 
 ---
